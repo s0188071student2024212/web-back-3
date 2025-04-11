@@ -71,7 +71,7 @@ function validate_form($data) {
 
 $user = 'u68851'; 
 $password = '5595263'; 
-$pdo = new PDO('mysql:host=localhost;dbname=u68838', $user, $password,
+$pdo = new PDO('mysql:host=localhost;dbname=u68851', $user, $password,
   [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]); 
 
 // Подготовленный запрос. Не именованные метки.
